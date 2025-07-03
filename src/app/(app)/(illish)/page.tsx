@@ -24,13 +24,13 @@ export default function Page() {
 					<div className="mx-auto max-w-4xl text-center">
 						{/* Eyebrow text with gradient */}
 						<p className="backdrop-blur-md mb-6 inline-block rounded-full bg-gradient-to-r from-background/60 via-background/90 to-background/70 px-4 py-1.5 text-sm font-medium text-primary shadow-sm">
-							React + Next.js Experts
+							Next.js Implementation Experts
 						</p>
 
 						{/* Main Heading */}
 						<h1 className="animate-fadeDown mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-7xl">
 							<Balancer>
-								We build websites that <span className={cn(font.className, "text-primary")}>convert</span>
+								We implement <span className={cn(font.className, "text-primary")}>Next.js</span> at your company
 							</Balancer>
 						</h1>
 
@@ -38,19 +38,19 @@ export default function Page() {
 						<p className="relative mb-8 text-lg sm:text-xl font-medium">
 							<span className="relative text-foreground [text-shadow:_0_1px_2px_rgb(0_0_0_/_30%)] dark:[text-shadow:_0_1px_2px_rgb(0_0_0_/_50%)]">
 								<Balancer>
-									We're not just developers – we're digital architects crafting tomorrow's web experiences today.
-									Where innovation meets execution, and dreams become deployments.
+									From enterprise-grade applications to team training, we accelerate your Next.js adoption.
+									Production-ready implementations, scalable architecture, and performance optimization from certified experts.
 								</Balancer>
 							</span>
 						</p>
 
 						{/* CTA Buttons */}
 						<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-							<Link className={buttonVariants({ variant: "outline", size: "lg" })} href="https://lacymorrow.com/work">
-								Explore Our Success Stories
+							<Link className={buttonVariants({ variant: "outline", size: "lg" })} href="/case-studies">
+								View Implementation Case Studies
 							</Link>
-							<Link className={buttonVariants({ variant: "outline", size: "lg" })} href="https://lacymorrow.com/contact">
-								Transform Your Business
+							<Link className={buttonVariants({ variant: "outline", size: "lg" })} href="/contact">
+								Start Your Next.js Journey
 								<SparklesIcon className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
 							</Link>
 						</div>
@@ -60,28 +60,28 @@ export default function Page() {
 							<div className="rounded-lg border bg-background/80 p-4 backdrop-blur-md shadow-sm">
 								<div className="flex items-center justify-center gap-2 mb-1">
 									<Zap className="h-5 w-5 text-primary" />
-									<h3 className="font-semibold text-foreground">Speed to Market</h3>
+									<h3 className="font-semibold text-foreground">Enterprise Implementation</h3>
 								</div>
 								<p className="text-sm text-foreground/80">
-									You launch faster with our battle-tested framework
+									Production-ready Next.js applications built for scale and performance
 								</p>
 							</div>
 							<div className="rounded-lg border bg-background/80 p-4 backdrop-blur-md shadow-sm">
 								<div className="flex items-center justify-center gap-2 mb-1">
 									<Code2 className="h-5 w-5 text-primary" />
-									<h3 className="font-semibold text-foreground">Future-Proof Tech</h3>
+									<h3 className="font-semibold text-foreground">Team Training</h3>
 								</div>
 								<p className="text-sm text-foreground/80">
-									Built on Next.js 15, ready for whatever tomorrow brings
+									Comprehensive Next.js training to upskill your development team
 								</p>
 							</div>
 							<div className="rounded-lg border bg-background/80 p-4 backdrop-blur-md shadow-sm">
 								<div className="flex items-center justify-center gap-2 mb-1">
 									<IconRobotFace className="h-5 w-5 text-primary" />
-									<h3 className="font-semibold text-foreground">Turbo-charged Tools</h3>
+									<h3 className="font-semibold text-foreground">Performance Optimization</h3>
 								</div>
 								<p className="text-sm text-foreground/80">
-									Generate copy, images, and layouts from within your website
+									Advanced optimization techniques for lightning-fast Next.js applications
 								</p>
 							</div>
 						</div>

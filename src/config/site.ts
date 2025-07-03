@@ -75,12 +75,12 @@ export const siteConfig: SiteConfig = {
 		pageTransitions: true, // Transition between pages
 	},
 
-	name: "Shipkit",
-	title: "Shipkit - Launch your app today",
-	url: "https://shipkit.io",
-	ogImage: "https://shipkit.io/api/og",
+	name: "NextAccel",
+	title: "NextAccel - Next.js Implementation Experts",
+	url: "https://nextaccel.com",
+	ogImage: "https://nextaccel.com/api/og",
 	description:
-		"Launch your app at light speed. Fast, flexible, and feature-packed for the modern web.",
+		"We implement Next.js at your company. Enterprise-grade Next.js applications, team training, and performance optimization from certified experts.",
 	links: {
 		twitter: "https://twitter.com/lacybuilds",
 		twitter_follow: "https://twitter.com/intent/follow?screen_name=lacybuilds",
@@ -108,21 +108,21 @@ export const siteConfig: SiteConfig = {
 			siteConfig.email[type],
 	},
 	creator: {
-		name: "lacymorrow",
-		email: "lacy@shipkit.io",
-		url: "https://lacymorrow.com",
-		twitter: "@lacybuilds",
-		twitter_handle: "lacybuilds",
-		domain: "lacymorrow.com",
-		fullName: "Lacy Morrow",
-		role: "Engineer",
+		name: "nextaccel",
+		email: "hello@nextaccel.com",
+		url: "https://nextaccel.com",
+		twitter: "@nextaccel",
+		twitter_handle: "nextaccel",
+		domain: "nextaccel.com",
+		fullName: "NextAccel Team",
+		role: "Next.js Implementation Experts",
 		avatar: "https://avatars.githubusercontent.com/u/1311301?v=4",
-		location: "San Francisco, CA",
-		bio: "Founder, developer, and product designer.",
+		location: "Global Remote Team",
+		bio: "Next.js accelerator agency specializing in enterprise implementations.",
 	},
 
 	store: {
-		domain: "shipkit.lemonsqueezy.com",
+		domain: "nextaccel.lemonsqueezy.com",
 		products: {
 			bones: "eb159dba-96a3-40f2-a97b-7b9117e635a1",
 			muscles: "4d259175-0a79-486a-b0f8-b77404ee68df",
@@ -136,7 +136,7 @@ export const siteConfig: SiteConfig = {
 	},
 	admin: {
 		emails: ["lacymorrow0@gmail.com", "gojukebox@gmail.com"],
-		domains: ["lacymorrow.com"],
+		domains: ["nextaccel.com"],
 		isAdmin: (email: string) =>
 			siteConfig.admin.emails.includes(email) ||
 			siteConfig.admin.domains.some((domain: string) =>
@@ -145,13 +145,16 @@ export const siteConfig: SiteConfig = {
 	},
 	metadata: {
 		keywords: [
-			"Next.js",
-			"React",
-			"Tailwind CSS",
-			"Server Components",
-			"Shipkit",
-			"Shadcn",
-			"UI Components",
+			"Next.js Implementation",
+			"Next.js Experts",
+			"Next.js Consulting",
+			"Enterprise Next.js",
+			"Next.js Agency",
+			"React Server Components",
+			"Next.js Training",
+			"Next.js Performance",
+			"Next.js Migration",
+			"Next.js Architecture",
 		],
 		themeColor: {
 			light: "white",

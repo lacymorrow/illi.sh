@@ -1,40 +1,50 @@
-
-
 export const content = [
 	{
-		question: "What is ShipKit?",
+		question: "What is NextAccel?",
 		answer:
-			"ShipKit is a production-ready starter kit for Next.js projects that includes authentication, database setup, API routes, and more.",
+			"NextAccel is a Next.js accelerator agency that specializes in implementing Next.js at companies. We provide enterprise-grade Next.js applications, team training, migration services, and ongoing support.",
 		category: "general",
 	},
 	{
-		question: "How do I get started?",
+		question: "How do you implement Next.js at our company?",
 		answer:
-			"After purchasing ShipKit, you'll receive access to the GitHub repository. Clone it, install dependencies, and follow our setup guide.",
+			"We start with understanding your requirements, then create a tailored implementation plan. This includes architecture design, development, team training, testing, and deployment with ongoing support.",
 		category: "technical",
 	},
 	{
-		question: "What's included in the different plans?",
+		question: "What services do you offer?",
 		answer:
-			"We offer three plans: Bones (core features), Muscles (added functionality), and Brains (full feature set). Check our pricing page for details.",
-		category: "pricing",
+			"We offer complete Next.js implementation, migration from existing frameworks, team training workshops, performance optimization, architecture consulting, and ongoing maintenance and support.",
+		category: "services",
 	},
 	{
-		question: "How can I get help?",
+		question: "Do you provide team training?",
 		answer:
-			"Our support team is available to help you with any questions or issues. Check our documentation first, then reach out through our support channels if needed.",
+			"Yes! We offer comprehensive Next.js training programs including hands-on workshops, best practices sessions, and ongoing mentorship to upskill your development team.",
+		category: "training",
+	},
+	{
+		question: "What makes your Next.js implementations different?",
+		answer:
+			"We focus on enterprise-grade applications built with Next.js 15 App Router, Server Components, TypeScript, and modern best practices. Our implementations are production-ready, scalable, and optimized for performance.",
+		category: "technical",
+	},
+	{
+		question: "Can you migrate our existing application to Next.js?",
+		answer:
+			"Absolutely! We specialize in seamless migrations from React, Vue, Angular, and other frameworks to Next.js with zero downtime strategies and improved performance outcomes.",
+		category: "migration",
+	},
+	{
+		question: "Do you provide ongoing support after implementation?",
+		answer:
+			"Yes, we provide comprehensive ongoing support including monitoring, updates, performance optimization, troubleshooting, and feature development to ensure your Next.js application continues to perform at its best.",
 		category: "support",
 	},
 	{
-		question: "What technologies does ShipKit use?",
+		question: "How long does a typical Next.js implementation take?",
 		answer:
-			"ShipKit is built with Next.js 14+, TypeScript, Tailwind CSS, Shadcn/UI, Payload CMS, and other modern technologies. It follows best practices for performance, security, and developer experience.",
-		category: "technical",
-	},
-	{
-		question: "Is ShipKit regularly updated?",
-		answer:
-			"Yes, ShipKit is actively maintained and regularly updated with new features, security patches, and dependency updates. We follow semantic versioning and provide clear upgrade paths.",
-		category: "general",
+			"Implementation timelines vary based on project complexity, but typical enterprise implementations range from 4-16 weeks. We provide detailed project timelines during our discovery phase.",
+		category: "timeline",
 	},
 ];

@@ -42,7 +42,7 @@ export function Attribution({
 	className,
 	variant = 'banner',
 	title = 'Built with Shipkit',
-	description = 'The ultimate Next.js starter kit for your project',
+	description = 'Enterprise Next.js implementation experts',
 	onClose,
 	open = true,
 	...props

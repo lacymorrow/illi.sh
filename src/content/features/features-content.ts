@@ -3,83 +3,84 @@ import type { Feature } from "@/types/feature";
 type FeatureContent = Omit<Feature, "id" | "order">;
 
 export const content: FeatureContent[] = [
-	// Marketing Features (Core)
+	// Core Implementation Services
 	{
-		name: "Lightning Fast",
+		name: "Enterprise Next.js Implementation",
 		description:
-			"Built on Next.js 15 with React Server Components for incredible performance and instant page loads",
+			"Full-scale Next.js application development with App Router, Server Components, and enterprise-grade architecture",
 		category: "core",
 		plans: ["bones", "muscles", "brains"],
 		icon: "Zap",
 	},
 	{
-		name: "Type-Safe",
+		name: "Migration & Modernization",
 		description:
-			"End-to-end type safety with TypeScript, ensuring robust and maintainable code",
+			"Seamlessly migrate your existing applications to Next.js with zero downtime and improved performance",
 		plans: ["bones", "muscles", "brains"],
 		category: "core",
+		icon: "RefreshCw",
+	},
+	{
+		name: "Team Training & Workshops",
+		description:
+			"Comprehensive Next.js training programs to upskill your development team with hands-on workshops",
+		category: "core",
+		plans: ["bones", "muscles", "brains"],
+		icon: "GraduationCap",
+	},
+	{
+		name: "Performance Optimization",
+		description:
+			"Advanced optimization techniques including SSR, ISR, edge computing, and Core Web Vitals improvements",
+		category: "core",
+		plans: ["brains"],
+		icon: "Gauge",
+	},
+	{
+		name: "Architecture Consulting",
+		description:
+			"Scalable Next.js architecture design, code reviews, and best practices implementation",
+		category: "core",
+		plans: ["brains"],
+		icon: "Building",
+	},
+	{
+		name: "Ongoing Support & Maintenance",
+		description:
+			"Dedicated support team for your Next.js applications with monitoring, updates, and troubleshooting",
+		category: "core",
+		plans: ["bones", "muscles", "brains"],
 		icon: "Shield",
 	},
+	// Technical Implementation Features
 	{
-		name: "Modern Stack",
+		name: "Next.js 15 App Router Expertise",
 		description:
-			"Cutting-edge tech stack including Tailwind CSS, Shadcn/UI, and tRPC for a seamless development experience",
-		category: "core",
-		plans: ["bones", "muscles", "brains"],
-		icon: "Layers",
-	},
-	{
-		name: "AI-Powered",
-		description:
-			"Built-in AI capabilities with OpenAI integration for smart features and automation",
-		category: "core",
-		plans: ["brains"],
-		icon: "Brain",
-	},
-	{
-		name: "Secure",
-		description:
-			"Enterprise-grade security with Auth.js v5, rate limiting, and best practices built-in",
-		category: "core",
-		plans: ["brains"],
-		icon: "Lock",
-	},
-	{
-		name: "Developer Experience",
-		description:
-			"Exceptional DX with hot reload, type hints, and VS Code extensions for rapid development",
-		category: "core",
-		plans: ["bones", "muscles", "brains"],
-		icon: "Code",
-	},
-	// Product Features
-	{
-		name: "Next.js 15 App Router",
-		description:
-			"Latest Next.js features including server components, streaming, and more",
+			"Deep expertise in the latest Next.js features including Server Components, streaming, and parallel routes",
 		category: "dx",
 		plans: ["bones", "muscles", "brains"],
 		icon: "NextJs",
 	},
 	{
-		name: "Tailwind & Shadcn/UI",
+		name: "Production-Ready UI Systems",
 		description:
-			"Beautiful, accessible components built with Radix UI and Tailwind CSS",
+			"Enterprise component libraries built with Radix UI, Tailwind CSS, and accessibility best practices",
 		category: "dx",
 		plans: ["bones", "muscles", "brains"],
 		icon: "Paintbrush",
 	},
 	{
-		name: "Authentication",
+		name: "Authentication & Security",
 		description:
-			"Secure authentication with NextAuth.js v5 and multiple providers",
+			"Secure authentication implementation with NextAuth.js v5, RBAC, and enterprise security standards",
 		category: "security",
 		plans: ["bones", "muscles", "brains"],
 		icon: "Lock",
 	},
 	{
-		name: "Database & ORM",
-		description: "PostgreSQL database with Drizzle ORM for type-safe queries",
+		name: "Database Integration & Optimization",
+		description:
+			"Optimized database setup with PostgreSQL, Drizzle ORM, and connection pooling for high performance",
 		category: "backend",
 		plans: ["muscles", "brains"],
 		icon: "Database",
