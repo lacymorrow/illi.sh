@@ -1,6 +1,5 @@
 import type { Page } from "@/payload-types";
 import type { CollectionConfig } from "payload/types";
-import { blocks } from "../../../app/payload/blocks/index";
 
 /*
  * Pages Collection
@@ -69,7 +68,7 @@ export const Pages: CollectionConfig = {
 			name: "layout",
 			type: "blocks",
 			required: true,
-			blocks,
+			blocks: [],
 		},
 		{
 			name: "publishedAt",

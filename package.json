@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run workers.build && next build",
+    "build": "npm run workers.build && next build --webpack",
     "dev.all": "concurrently \"npm run workers.dev\" \"npm run dev\"",
     "dev": "next dev --turbo",
     "dev.legacy": "next dev",
@@ -326,6 +326,24 @@
     "overrides": {
       "react": "19.2.3",
       "react-dom": "19.2.3"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@lvce-editor/ripgrep",
+      "@tsparticles/engine",
+      "better-sqlite3",
+      "bufferutil",
+      "chromedriver",
+      "contentlayer",
+      "edgedriver",
+      "es5-ext",
+      "esbuild",
+      "geckodriver",
+      "isolated-vm",
+      "msw",
+      "protobufjs",
+      "puppeteer",
+      "sharp",
+      "utf-8-validate"
+    ]
   }
 }
