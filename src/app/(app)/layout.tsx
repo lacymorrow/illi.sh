@@ -19,17 +19,8 @@ export const metadata: Metadata = {
 		},
 	],
 	creator: siteConfig.creator.name,
-	robots: {
-		index: true,
-		follow: true,
-		googleBot: {
-			index: true,
-			follow: true,
-			'max-video-preview': -1,
-			'max-image-preview': 'large',
-			'max-snippet': -1,
-		},
-	},
+	// Placeholder landing page with no product behind it yet: keep it out of search.
+	robots: { index: false, follow: false },
 	openGraph: {
 		type: 'website',
 		locale: 'en_US',

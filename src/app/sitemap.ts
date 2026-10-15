@@ -2,7 +2,12 @@ import { routes } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 import type { MetadataRoute } from "next";
 
+// Site is noindex (placeholder landing page); do not advertise its URLs.
+const SITE_IS_NOINDEX = true;
+
 export default function sitemap(): MetadataRoute.Sitemap {
+	if (SITE_IS_NOINDEX) return [];
+
 	// Collect public routes
 	const publicRoutes = [
 		routes.home,
